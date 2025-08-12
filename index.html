@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anto Salina S - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass">
+    <div class="header-content">
+      <div class="profile-block">
+        <div class="pic-container">
+          <img src="image.jpg" alt="Profile" class="profile-pic">
+        </div>
+        <span class="name" id="name"></span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="glass section anim-about"></section>
+    <section id="education" class="glass section anim-education"></section>
+    <section id="skills" class="glass section anim-skills"></section>
+    <section id="projects" class="glass section anim-projects"></section>
+    <section id="experience" class="glass section anim-experience"></section>
+    <section id="certifications" class="glass section anim-certifications"></section>
+    <section id="contact" class="glass section anim-contact"></section>
+  </main>
+  <div class="floating-buttons">
+    <button id="top-btn" title="Back to Top" style="display:none;">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+        <path d="M8 20l8-8 8 8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <a href="Anto Salina.pdf" download class="download-btn" title="Download Resume">
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+        <path d="M16 4v18m0 0l8-8m-8 8l-8-8" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+        <rect x="4" y="24" width="24" height="4" rx="2" fill="currentColor"/>
+      </svg>
+    </a>
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
